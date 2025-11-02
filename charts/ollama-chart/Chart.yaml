@@ -1,0 +1,6 @@
+apiVersion: v2
+name: ollama
+description: Helm chart to deploy Ollama backend for LLM
+type: application
+version: 0.1.0
+appVersion: "1.0"

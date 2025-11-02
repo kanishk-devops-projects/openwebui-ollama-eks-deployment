@@ -1,0 +1,5 @@
+apiVersion: v2
+name: openwebui-chart
+description: Helm chart for deploying OpenWebUI frontend
+version: 0.1.0
+appVersion: "latest"

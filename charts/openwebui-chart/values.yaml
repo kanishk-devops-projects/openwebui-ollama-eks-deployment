@@ -1,0 +1,21 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/open-webui/open-webui
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30082
+
+resources: {}
+
+nodeSelector: {}
+tolerations: []
+affinity: {}
+
+ollama:
+  host: ollama-chart
+  port: 11434
